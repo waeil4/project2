@@ -6,11 +6,15 @@
 
 .leftside{
     height: 100vh;
-    background-color: rgb(255, 255, 255);
+    background-image: url(e14ae154ac89552fb5a1e24e9f7edc9c.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    
     flex: 1;
    
 }
 .rightside{
+   
     height: 100vh;
     background-color: rgb(255, 255, 255);
     flex: 2;
@@ -24,7 +28,90 @@
 }
 .rightside_2{
     height: 50%;
-    background-color: rgb(37, 0, 250);
+    background-color: rgb(255, 255, 255);
     flex: 1;
 }
+h1{
+   font-family: 'font_import' ; 
+   color:#6699CC;
+   font-size: 20px;
+   padding-top: 300px;
+   padding-left: 200px;
+   
+}
+h2{
+    font-family: 'font_import' ;
+    color: aliceblue;
+    font-size: 75px;
+    padding-left: 200px;
+}
+h1, h2 {
+    margin: 0;
+}
+h3, h4{
+    font-family:'font_import2' ;
+    margin: 0;
+    font-size: 30px;
+    padding-left: 200px;
+    color: aliceblue;
+    
+}
+h3{
+    padding-top: 23px;
+}
+@font-face {
+    font-family: 'font_import';
+    src: url(heavitas/Heavitas.ttf);
+}
+@font-face {
+    font-family: 'font_import2';
+    src: url(bebas_neue/BebasNeue-Regular.ttf);
+}
+button{
+    background: transparent;
+    cursor: pointer;
+    padding: 20px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 30px;
+    
 
+}
+button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#instgram{
+    position: absolute;
+    top: 850px;
+    left: 100px;
+}
+#youtube{
+    position: absolute;
+    top: 850px;
+    left: 220px;
+}
+#tiktok{
+    position: absolute;
+    top: 850px;
+    left: 340px;
+}
+#discord{
+    position: absolute;
+    top: 850px;
+    left: 460px;
+}
+button:hover {
+    color: #6699CC; 
+    border: 3px solid #6699CC; 
+}
+button:hover a {
+    color: #6699CC;
+}

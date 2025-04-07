@@ -67,6 +67,10 @@ h3{
     font-family: 'font_import2';
     src: url(bebas_neue/BebasNeue-Regular.ttf);
 }
+@font-face {
+    font-family: 'font_import3';
+    src: url(lemon_milk/LEMONMILK-LightItalic.otf);
+}
 button{
     background: transparent;
     cursor: pointer;
@@ -114,4 +118,30 @@ button:hover {
 }
 button:hover a {
     color: #6699CC;
+}
+#hire_me{
+    font-family: 'font_import3';
+    background: rgba(102, 153, 204, 1.0);
+    cursor: pointer;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 0;
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    position: absolute;
+    top: 600px;
+    left: 200px;
+    letter-spacing: 1px;
+    outline: none ;
+    box-shadow: 0 5px 10px rgba(102, 153, 204, 1.0);
+    transition: all 0.4s ease;
+    
+}
+#hire_me:active{
+    transform: scale(0.9);
+    box-shadow: 0 5px 10px  rgba(102, 153, 204, 0.5) ;
 }
